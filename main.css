@@ -81,3 +81,25 @@
   font-weight: 600;
   font-size: 14px;
 }
+
+@media screen and (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 145px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 245px);
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .member-5 {
+    margin-top: 120px;
+  }
+
+}
