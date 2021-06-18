@@ -11,6 +11,7 @@
 }
 
 .grid-container {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, 145px);
   justify-content: center;
@@ -22,7 +23,7 @@
 }
 
 .flex-container img {
-  width: 100%;
+  width: 90%;
 }
 
 .flex-container p {
@@ -37,15 +38,25 @@
 
 .container h1 {
   margin-bottom: 2rem;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .container h2 {
   margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .container p {
   width: 330px;
   margin-bottom: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .m-t {
@@ -56,4 +67,17 @@
   text-align: center;
   margin-top: 8rem;
   margin-bottom: 1rem;
+}
+
+.role {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
 }
